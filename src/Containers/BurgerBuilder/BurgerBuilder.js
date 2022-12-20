@@ -96,6 +96,7 @@ class BurgerBuilder extends Component {
     }
 
     const queryString = queryParams.join("&");
+    // eslint-disable-next-line react/prop-types
     this.props.history.push({
       pathname: "/checkout",
       search: "?" + queryString,
@@ -142,4 +143,4 @@ class BurgerBuilder extends Component {
   }
 }
 
-export default withErroHandler(BurgerBuilder, axios)
+export default withErroHandler(BurgerBuilder, axios);

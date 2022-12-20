@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React, { Component } from "react";
 import Button from "../../../Components/UI/Button/Button";
 import classes from "./ContactData.module.css";
