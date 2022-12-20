@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React, { Component } from "react";
 import Aux from "../../hoc/Auxilary";
 import classes from "./Layout.module.css";

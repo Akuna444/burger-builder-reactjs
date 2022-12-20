@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React, { Component } from "react";
 import { Route } from "react-router";
 import CheckoutSummary from "../../Components/Order/CheckoutSummary/CheckoutSummary";

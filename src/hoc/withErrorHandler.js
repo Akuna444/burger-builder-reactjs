@@ -1,7 +1,7 @@
+/* eslint-disable react/display-name */
 import Aux from "./Auxilary";
 import Modal from "../Components/UI/Modal/Modal";
 import React, { Component } from "react";
-import axios from "axios";
 
 const withErroHandler = (WrappedComponent, axios) => {
   return class extends Component {

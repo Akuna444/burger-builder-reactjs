@@ -5,7 +5,7 @@ import Button from "../../UI/Button/Button";
 const orderSummary = (props) => {
   const ingredientSummary = Object.entries(props.ingredients).map((igEntry) => {
     return (
-      <li>
+      <li key={igEntry.keys}>
         <span>{igEntry[0].toUpperCase()}: </span>
         <strong>{igEntry[1]}</strong>
       </li>
