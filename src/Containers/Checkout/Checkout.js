@@ -3,7 +3,6 @@ import React, { Component } from "react";
 import { Route } from "react-router";
 import CheckoutSummary from "../../Components/Order/CheckoutSummary/CheckoutSummary";
 import ContactData from "./ContactData/ContactData";
-import Order from "../../Components/Order/Order";
 
 class Checkout extends Component {
   state = {
