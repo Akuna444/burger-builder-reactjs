@@ -99,7 +99,7 @@ class ContactData extends Component {
       ingredients: this.props.ingredients,
       orderData: formData,
     };
-    axios.post("/order.json", order).then((response) => {
+    axios.post("/order.json", order).then(() => {
       this.setState({ loading: false });
       this.props.history.push("/");
     });
@@ -166,6 +166,7 @@ class ContactData extends Component {
         {formElementArray.map((formElement) => {
           return (
             <Input
+              key={formElement.config}
               inputtype={formElement.config.elementType}
               elementConfig={formElement.config.elementConfig}
               value={formElement.config.value}
